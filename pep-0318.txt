@@ -255,7 +255,7 @@ that something new is going on here.
 The rationale for the `order of application`_ (bottom to top) is that it
 matches the usual order for function-application.  In mathematics,
 composition of functions (g o f)(x) translates to g(f(x)).  In Python,
-``@g @f def foo()`` translates to ``foo=g(f(foo)``.
+``@g @f def foo()`` translates to ``foo=g(f(foo))``.
 
 .. _order of application:
     https://mail.python.org/pipermail/python-dev/2004-September/048874.html
